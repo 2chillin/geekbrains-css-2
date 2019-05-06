@@ -87,6 +87,10 @@ li {
     width: 56%;
 }
 
+.main-article-video {
+    float: right;
+}
+
 .main-article span.main-article-title {
     margin: 0;
     color:  #445161;
@@ -159,4 +163,135 @@ li {
     position: absolute;
     top: 5px;
     left: -42px;
+}
+
+.screenshots {
+    width: 100%;
+    padding: 50px 50px 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.screenshots-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 35px 0;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.screenshots-wrapper {
+    width: 574px;
+    margin: 0 0 30px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screenshots-photo {
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color:  #445161;
+}
+
+.screenshots-photo-wrapper {
+    width: 359px;
+    margin-top: -3px;
+}
+
+.screenshots-photo-title {
+    display: block;
+    margin: 0 0 15px 0;
+    color:  #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.screenshots-photo-txt {
+    margin: 0;
+    color:  #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.reviews{
+    width: 100%;
+    padding: 50px 50px 20px 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.reviews-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 35px 0;
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.reviews-wrapper {
+    width: 575px;
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reviews-photo {
+    display: block;
+    width: 76px;
+    height: 76px;
+    background-color:  #445161;
+    border-radius: 50%;
+}
+
+.reviews-photo-wrapper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: #ebebeb;
+    margin: 32px -8px;
+    transform: rotate(45deg);
+}
+
+.reviews-photo-wrapper {
+    width: 471px;
+    margin-top: -3px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.reviews-photo-txt {
+    margin: 0;
+    color:  #333333;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 11px 17px;
+    font-style: italic;
+}
+
+.reviews-photo-txt-sign {
+    color: #989898;
+    font-size: 14px;
+    margin: 0 17px;
+    padding-bottom:15px;
+    line-height:14px;
 }
