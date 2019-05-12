@@ -366,8 +366,8 @@ li {
 }
 
 .price-item-btn:hover {
-    background-color: #fff;
-    color: #445161;
+    background-color: #445161;
+    color: #fff;
     cursor: pointer;
 }
 
